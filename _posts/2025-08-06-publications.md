@@ -1,5 +1,11 @@
-Publications
-
+---
+layout: post
+title: "Publications"
+author: "Sage Malingen"
+categories: publications
+tags: [publications]
+image: cuba-2.jpg
+---
 Mahapatra, A., Malingen, S. A., & Rangamani, P. (2024). Interplay between cortical adhesion and membrane bending regulates microparticle formation. arXiv preprint arXiv:2402.07120.
 
 Malingen, S. A., & Rangamani, P. (2022). Modelling membrane curvature generation using mechanics and machine learning. Journal of the Royal Society Interface, 19(194), 20220448.
