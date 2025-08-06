@@ -4,7 +4,7 @@ title: "About"
 author: "Sage Malingen"
 categories: about
 tags: [about]
-image: cuba-2.jpg
+image: purple-flower.jpg
 ---
 
 I am a computational biologist. My work focuses on using simulation, computational modeling and
