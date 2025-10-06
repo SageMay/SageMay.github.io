@@ -4,7 +4,7 @@ title: "Building Confidence with Command Line"
 author: "Sage Malingen"
 categories: blog
 tags: [blog]
-image: commandLineWorkshop.jpg
+image: birch.jpg
 ---
 Learning Unix shell scripting can be intimidating. Last week I co-lead a Unix shell workshop based on the Software Carpentries’ course materials to help students get their footing.
 
@@ -15,3 +15,5 @@ For this workshop, we used the material from Software Carpentry's "Introducing t
 I noticed as we worked to get all of the students to the downloaded lesson data that for some Windows users with One Drive that it took me a few tries to help them navigate their file directory. As an instructor it can feel destabilizing to struggle in front of students, but in this workshop it was useful. They saw real time that getting an error message isn't the end of the world. In practice, when I get an error message in my day-to-day work I will try other options or look up more about the function I'm using, which is a good process for a student to see.
 
 At the end of the workshop, one of the students commented that previous courses had moved too fast, but that this one actually helped to build confidence. I couldn't be more pleased! I’m glad to have worked with Dave Beck and the Center for Translational Muscle Research to help 17 students build confidence with shell. And if you’re looking to learn? Check out the Software Carpentries, the eScience Institute or keep an eye on the CTMR’s webpage for upcoming workshops.
+
+![Image of flyer advertising command line workshop hosted by the Center for Translational Muscle Research](assets/img/commandLineWorkshopFlyer.jpg)
