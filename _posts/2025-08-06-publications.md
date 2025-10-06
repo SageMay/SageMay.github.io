@@ -8,7 +8,7 @@ image: heather-mountains.jpg
 ---
 Mahapatra, A., Malingen, S. A., & Rangamani, P. (2024). Interplay between cortical adhesion and membrane bending regulates microparticle formation. arXiv preprint arXiv:2402.07120.
 
-Malingen, S. A., & Rangamani, P. (2022). Modelling membrane curvature generation using mechanics and machine learning. Journal of the Royal Society Interface, 19(194), 20220448.
+Malingen, S. A., & Rangamani, P. (2022). Modeling membrane curvature generation using mechanics and machine learning. Journal of the Royal Society Interface, 19(194), 20220448.
 
 Asencio, A., Malingen, S., Kooiker, K. B., Powers, J. D., Davis, J., Daniel, T., & Moussavi-Harami, F. (2023). Machine learning meets Monte Carlo methods for models of muscle’s molecular machinery to classify mutations. Journal of General Physiology, 155(5), e202213291.
 
