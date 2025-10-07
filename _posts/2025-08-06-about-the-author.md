@@ -11,6 +11,8 @@ I am a computational biologist. My work focuses on using simulation, computation
 
 In addition to research, I am an educator. The University of Washington's Biology department is heavily invested in evidence-based teaching practice to facilitate student success. So from day one of TA-ing Biology classes I was immeresed in student-centered practice. I've sought out opportunitites to learn more, from auditing an "Evidence-based teaching" class to get an understanding of the education research literature to pursuing hands on experience through a mentored opportunity to develop and teach a class (STEP-WISE).
 
+Education happens both in the classroom and outside of it, and creating opportunities to improve training is a major motivator for how I do my work. Recently, that's taken the form of documenting and streamlining processes to make learning complex computational procedures easier.
+
 <img src="assets/img/ProfessionalHeadShot.jpg" height="300" width="300" alt="Photo of the author.">
 
 This site was developed using the Millennial Jekyll theme created by Paul Le under the MIT license.
