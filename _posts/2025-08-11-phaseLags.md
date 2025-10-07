@@ -15,8 +15,8 @@ I wanted to understand how muscle's sub-cellular machinery works together. Our e
 
 Here you can see an example of these time series data (this figure is from a paper we published in the Journal of Experimental Biology (1)).
 
-![Figure showing time series data with periodic structure and phase lags between the data. ](assets/img/phase_lags_blog_traces.jpg)
-<img src="assets/img/birches.jpg" width="300" height="300" >
+<!--![Figure showing time series data with periodic structure and phase lags between the data. ](assets/img/phase_lags_blog_traces.jpg)-->
+<img src="assets/img/birches.jpg" width="300" height="300" alt="Figure showing time series data with periodic structure and phase lags between the data." >
 
 In this blog post, we'll pay attention to the d1,0 signal and the i2,0/i1,0 signal. These correspond to the spacing between the thick and thin filaments of muscle and the binding of myosin molecular motors to the thin filaments.
 
