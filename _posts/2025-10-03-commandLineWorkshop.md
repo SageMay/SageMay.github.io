@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "Building Confidence with Command Line"
+title: "Building Student Confidence using the Command Line"
 author: "Sage Malingen"
 categories: blog
 tags: [blog]
 image: birch.jpg
 ---
-Learning Unix shell scripting can be intimidating. Last week I co-lead a Unix shell workshop based on the Software Carpentries’ course materials to help students get their footing.
+Learning Unix shell scripting can be intimidating. Last week I co-lead a Unix shell workshop based on Software Carpentry’ course materials to help students get their footing.
 
-Teaching this workshop was meaningful for me because when I was in college I kept losing my homework for my Java I class. The professor helped me ferret out the problem: I hadn't realized that computers had a "Documents" folder, thinking at the time that if a file wasn't visible on the Desktop it didn't exist. By the end of the class, this same professor suggested I should consider majoring in Computer Science, but I felt far too out of place to even sign up for Java II. In my experience, competence along isn't enough -- a learner also needs confidence when it comes to coding. And perhaps even more so when operating on the command line.
+Teaching this workshop was meaningful for me because when I was in college I kept losing my homework for my Java I class. The professor helped me ferret out the problem: I hadn't realized that computers had a "Documents" folder, thinking at the time that if a file wasn't visible on the Desktop it didn't exist. By the end of the semester, this same professor suggested I should consider majoring in Computer Science, but I felt far too out of place to even sign up for Java II. In my experience, competence along isn't enough -- a learner also needs confidence when it comes to coding. And perhaps even more so when operating on the command line.
 
 For this workshop, we used the material from Software Carpentry's "Introducing the Shell" lesson. The Carpentries do an excellent job of bringing all learners onto the same page and unpacking all of the overhead knowledge. When you're used to using the command line, it's easy to forget that symbols like the `$` indicating a prompt, or the `-` signaling that you're specifying an option for a command are not obvious to a beginner. And the pacing of the material helps build confidence.
 
