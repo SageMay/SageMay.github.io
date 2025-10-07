@@ -16,6 +16,7 @@ I wanted to understand how muscle's sub-cellular machinery works together. Our e
 Here you can see an example of these time series data (this figure is from a paper we published in the Journal of Experimental Biology (1)).
 
 ![Figure showing time series data with periodic structure and phase lags between the data. ](assets/img/phase_lags_blog_traces.jpg)
+<img src="images/example.png" width="300" />
 
 In this blog post, we'll pay attention to the d1,0 signal and the i2,0/i1,0 signal. These correspond to the spacing between the thick and thin filaments of muscle and the binding of myosin molecular motors to the thin filaments.
 
@@ -31,7 +32,7 @@ Often, we imagine that muscles operate in very predictable, simple ways. But the
 
 This analysis framework is generalizable. So when a colleague shared periodic signals recorded using a fluorescence microscopy technique with me recently, I was excited to create a quick jupyter notebook to share how to do that with some of her data. She is early in collecting data, so there are only two cells (4 and 25) that have worked so far. This experiment will be pretty cool since she's collecting time-series data for several different fluorescent tags, but here I'm only sharing data for "trace 1" and "trace 2". It's unclear from the underlying biology what the phase relationships between these signals will be and I'm hopeful that this analysis will give new insights into cell mechanics. One thing that is very clear is that the data for cell 4 were much noisier than for cell 25. As scientists, sometimes we have to make a judgement call about what level of noise is acceptable, which is something we dealt with a lot in (1).
 
-![Cross correlation of time series fluorescence microscopy signals.](assets/img/phase_lags_blog_fluorescence_signals.png)
+![Cross correlation of time series fluorescence microscopy signals.](assets/img/phase_lags_blog_fluorescence_signals.jpg)
 
 Maybe you also have some periodic data to investigate. I'd love it if you adapt this code for your work, too. It's located here: https://github.com/SageMay/datascience_scripts/tree/main/timeseriesAnalysis
 
