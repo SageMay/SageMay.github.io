@@ -46,7 +46,7 @@ Also, using a large value for "silhouette" emphasizes the black outline around t
 
 The downside of these settings, in particular shadows and silhouetting, is that it takes longer for your local machine to render these features. So if you're demonstrating live using Chimera and the computer is bogging down you can uncheck shadows and silhouettes to reduce the load to visualize the trajectory.
 
-<img src="assets/img/chimeraImgs/depthCue.png" width="350" height="450" alt="Figure showing a screenshot of a Chimera session where Troponin is visualized (PDB: 1J1E with the addition of TnI's N terminal extension) and the settings for Viewing controls > Effects are shown." >
+<img src="assets/img/chimeraImgs/depthCue.png" width="450" height="400" alt="Figure showing a screenshot of a Chimera session where Troponin is visualized (PDB: 1J1E with the addition of TnI's N terminal extension) and the settings for Viewing controls > Effects are shown." >
 
 <h2> 4. Using the command line </h2>
 Use the command line to your advantage. Learning the syntax can help move faster using Chimera and can build to more complicated knowledge, like performing commands that re-perform a calculation for every frame of the simulation (the Per-Frame option in the MD movie viewer pane, which will be explained in 5). Here's an example that looks for pseudobonds among residues along the coordinating loop (residues 65-76). The coordinating residues are important because they functionally couple muscle activation with muscle contraction by tightly binding to calcium ions released by the sarcoplasmic reticulum, and that tight binding is in part facilitated by a network of bonds among the coordinating loop residues. When calcium binds, a hydrophobic region on the opposite side of TnC is disposed to open up and can result in the a portion of TnI binding that allows the rest of the thin filament to bind with myosin.
@@ -56,7 +56,7 @@ Use the command line to your advantage. Learning the syntax can help move faster
 This line can be run in Chimera's command line (if yours pane doesn't show it, use Favorites>Command Line to open it).
 Here, I have prescribed settings for `findclash` to look for contacts by adjusting the values of `overlapCutoff` and `hbondAllowance`, but you can also set these parameters to better identify clashes. The manual page for findclash explains this well: https://www.cgl.ucsf.edu/chimera/docs/UsersGuide/midas/findclash.html
 
-<img src="assets/img/chimeraImgs/commandLine.png" width="350" height="450" alt="Figure showing a screenshot of a Chimera session where Troponin is visualized (PDB: 1J1E with the addition of TnI's N terminal extension) and the command line is used to highlight pseudobonds between residues along the regulatory calcium coordinating loop." >
+<img src="assets/img/chimeraImgs/commandLine.png" width="450" height="400" alt="Figure showing a screenshot of a Chimera session where Troponin is visualized (PDB: 1J1E with the addition of TnI's N terminal extension) and the command line is used to highlight pseudobonds between residues along the regulatory calcium coordinating loop." >
 
 <h2> 5. Writing a per-frame script </h2>
 Building on knowledge of how to use the command line, multiple commands can be performed repeatedly over the course of a trajectory. To do this, from the MD movie panel open Per frame>Define script and enter the code into the window. This is an example of a per frame script I wrote to look at potential contacts between a subset of residues:
@@ -77,6 +77,6 @@ Finally, a per frame script is great when you're analyzing your results, but it'
 <h2> 6. Record a movie </h2>
 Recording movies can be complicated and gorgeous if you want to put in the time. But if you're just getting started, try going to the MD movie pane and selecting File>Record movie. You can adjust your step size and frame rate accordingly, and also the beginning and end of the simulation. As long as you have set up the viewing window on the portion of the structure you wish to highlight and used Actions>Hold selection steady for the key region, this can quickly produce a decent movie. In this example, you can observe several positively charged Lysines and Arginines on NTnI that seem disposed to interact with the negatively charged calcium coordinating site II.
 
-<video width="600" height="600" controls loop="" muted="" autoplay="">  
+<video width="600" height="500" controls loop="" muted="" autoplay="">  
   <source type="application/mp4" src="https://github.com/SageMay/SageMay.github.io/blob/main/assets/img/chimeraImgs/test2.mp4">
 </video>
