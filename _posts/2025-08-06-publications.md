@@ -4,7 +4,7 @@ title: "Publications"
 author: "Sage Malingen"
 categories: publications
 tags: [publications]
-image: flowers/sagebrushMariposaLily.jpg
+image: flowers/sagebrushMariposaLily_round.png
 ---
 Mahapatra, A., Malingen, S. A., & Rangamani, P. (2024). Interplay between cortical adhesion and membrane bending regulates microparticle formation. arXiv preprint arXiv:2402.07120.
 
