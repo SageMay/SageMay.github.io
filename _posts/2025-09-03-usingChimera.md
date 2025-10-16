@@ -4,7 +4,7 @@ title: "Visualizing Protein Structures Using Chimera"
 author: "Sage Malingen"
 categories: blog
 tags: [blog]
-image: columbine.jpg
+image: flowers/columbine.jpg
 ---
 <!-- Are you new to visualizing molecular dynamics (MD) simulations? Creating compelling visuals changes the game for how your work is perceived, but in my experience there's a steep learning curve. Check out my blog post for a few tips that helped make me make simulations clearer and quicker.
 -->
