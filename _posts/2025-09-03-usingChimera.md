@@ -78,6 +78,10 @@ Finally, a per frame script is great when you're analyzing your results, but it'
 <h2> 6. Record a movie </h2>
 Recording movies can be complicated and gorgeous if you want to put in the time. But if you're just getting started, try going to the MD movie pane and selecting File>Record movie. You can adjust your step size and frame rate accordingly, and also the beginning and end of the simulation. As long as you have set up the viewing window on the portion of the structure you wish to highlight and used Actions>Hold selection steady for the key region, this can quickly produce a decent movie. In this example, you can observe several positively charged Lysines and Arginines on NTnI that seem disposed to interact with the negatively charged calcium coordinating site II.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_0Wo_yHRS_s?si=u0v4znlpRxI0sPMc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+<!--
 <video width="600" height="500" controls loop="" muted="" autoplay="">  
   <source type="application/mp4" src="https://github.com/SageMay/SageMay.github.io/blob/main/assets/img/chimeraImgs/test2.mp4">
-</video>
+</video> -->
