@@ -31,9 +31,9 @@ When you get that first simulation, go ahead and write down the residue numbers 
 <h2> 2. Making consistent images using a .com file </h2>
 Make a ".com" file to be opened whenever you open a simulation of that structure that will color different portions of the structure. Setting this up early prevents having figures from when you first started the project that don't match the figures you made at the end. Here's an example of the `troponin.com` file I wrote:
 
-`color #70a1ca :.A`
-`color #c3ddf6 :.B`
-`color #3b7e65 :.C`
+`color #70a1ca :.A`<br>
+`color #c3ddf6 :.B`<br>
+`color #3b7e65 :.C`<br>
 
 The `:.A` syntax denotes a chain, but this could just as well be a numerical selection. For instance, the residues that are critical for coordinating the regulatory calcium could be selected as `:65,67,69,71,73,76`.
 
@@ -61,7 +61,7 @@ Here, I have prescribed settings for `findclash` to look for contacts by adjusti
 <h2> 5. Writing a per-frame script </h2>
 Building on knowledge of how to use the command line, multiple commands can be performed repeatedly over the course of a trajectory. To do this, from the MD movie panel open Per frame>Define script and enter the code into the window. This is an example of a per frame script I wrote to look at potential contacts between a subset of residues:
 
-`findclash ':65,67,69,71,73,76!H :237-278!H' test self overlapCutoff -.4 hbondAllowance 0 intraMol false reveal true;`
+`findclash ':65,67,69,71,73,76!H :237-278!H' test self overlapCutoff -.4 hbondAllowance 0 intraMol false reveal true;`<br>
 `ksdssp;`
 
 The first line looks for interactions by residues 65,67,69,71,73,76 and 237-278. Those are the residues of the calcium coordinating loop and of the N terminal extension of TnI, respectively. The N terminal extension of TnI is a functionally important portion of troponin, but because it is disordered it's challenging to know where it localizes, both in the context of the whole sarcomere, or even in the troponin structures that are used for many wet lab experiments. So we can use this command to figure out if it's likely to be interacting with the coordinating loop in this simulation.
