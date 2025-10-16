@@ -4,7 +4,7 @@ title: "Cross Correlation Reveals Phase Lags Between Key Time-series Events"
 author: "Sage Malingen"
 categories: blog
 tags: [blog]
-image: flowers/sacredDatura.jpg
+image: flowers/tigerlilly.jpg
 ---
 
 Picture this: you're trying to understand the relationship between several noisy time series data. Maybe you're looking at consumer purchasing habits, maybe the timing of insect and flower life stages, or maybe electricity usage.

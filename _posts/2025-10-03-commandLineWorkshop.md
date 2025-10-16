@@ -4,7 +4,7 @@ title: "Building Student Confidence using the Command Line"
 author: "Sage Malingen"
 categories: blog
 tags: [blog]
-image: flowers/birch.jpg
+image: flowers/twinflowers.jpg
 ---
 Learning Unix shell scripting can be intimidating. Last week I co-lead a Unix shell workshop based on Software Carpentry’ course materials to help students get their footing.
 
