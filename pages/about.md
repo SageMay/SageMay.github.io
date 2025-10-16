@@ -9,6 +9,6 @@ In addition to research, I am an educator. The University of Washington's Biolog
 
 Education happens both in the classroom and outside of it, and creating opportunities to improve training is a major motivator for how I do my work. Recently, that's taken the form of documenting and streamlining processes to make learning complex computational procedures easier.
 
-<img src="assets/img/ProfessionalHeadShot.jpg" height="300" width="300" alt="Photo of the author.">
+<img src="assets/img/roundHeadshot.png" height="300" width="300" alt="Photo of the author.">
 
 This site was developed using the Millennial Jekyll theme created by Paul Le under the MIT license.
