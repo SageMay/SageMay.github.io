@@ -31,9 +31,9 @@ When you get that first simulation, go ahead and write down the residue numbers 
 <h2> 2. Making consistent images using a .com file </h2>
 Make a ".com" file to be opened whenever you open a simulation of that structure that will color different portions of the structure. Setting this up early prevents having figures from when you first started the project that don't match the figures you made at the end. Here's an example of the `troponin.com` file I wrote:
 
-`color #70a1ca :.A
-color #c3ddf6 :.B
-color #3b7e65 :.C`
+`color #70a1ca :.A`
+`color #c3ddf6 :.B`
+`color #3b7e65 :.C`
 
 The `:.A` syntax denotes a chain, but this could just as well be a numerical selection. For instance, the residues that are critical for coordinating the regulatory calcium could be selected as `:65,67,69,71,73,76`.
 
@@ -53,24 +53,25 @@ Use the command line to your advantage. Learning the syntax can help move faster
 
 `findclash ':65-76!H' test self overlapCutoff -.4 hbondAllowance 0 intraMol true`
 
-This line can be run in Chimera's command line (if yours pane doesn't show it, use Favorites>Command Line to open it).
-Here, I have prescribed settings for `findclash` to look for contacts by adjusting the values of `overlapCutoff` and `hbondAllowance`, but you can also set these parameters to better identify clashes. The manual page for findclash explains this well: https://www.cgl.ucsf.edu/chimera/docs/UsersGuide/midas/findclash.html
+This line can be run in Chimera's command line (if your pane doesn't show the command line you can use Favorites>Command Line to open it).
+Here, I have prescribed settings for `findclash` to look for contacts by adjusting the values of `overlapCutoff` and `hbondAllowance`, but you can also set these parameters to better identify clashes. The manual page for `findclash` explains this well: <a href="url">https://www.cgl.ucsf.edu/chimera/docs/UsersGuide/midas/findclash.html</a>
 
 <img src="assets/img/chimeraImgs/commandLine.png" width="450" height="400" alt="Figure showing a screenshot of a Chimera session where Troponin is visualized (PDB: 1J1E with the addition of TnI's N terminal extension) and the command line is used to highlight pseudobonds between residues along the regulatory calcium coordinating loop." >
 
 <h2> 5. Writing a per-frame script </h2>
 Building on knowledge of how to use the command line, multiple commands can be performed repeatedly over the course of a trajectory. To do this, from the MD movie panel open Per frame>Define script and enter the code into the window. This is an example of a per frame script I wrote to look at potential contacts between a subset of residues:
 
-`findclash ':65,67,69,71,73,76!H :237-278!H' test self overlapCutoff -.4 hbondAllowance 0 intraMol false reveal true;
-ksdssp;`
+`findclash ':65,67,69,71,73,76!H :237-278!H' test self overlapCutoff -.4 hbondAllowance 0 intraMol false reveal true;`
+`ksdssp;`
 
-The first line looks for interactions by residues 65,67,69,71,73,76 and 237-278. Those are the residues of the calcium coordinating loop and of the N terminal extension of TnI, respectively. The N terminal extension of TnI is a functionally important portion of troponin, but because it is disordered we don't know much about what it does, either in the context of the whole sarcomere, or even in the troponin structure that is used for many wet lab experiments. So we can use this command to figure out if it's likely to be interacting with the coordinating loop in this simulation.
+The first line looks for interactions by residues 65,67,69,71,73,76 and 237-278. Those are the residues of the calcium coordinating loop and of the N terminal extension of TnI, respectively. The N terminal extension of TnI is a functionally important portion of troponin, but because it is disordered it's challenging to know where it localizes, both in the context of the whole sarcomere, or even in the troponin structures that are used for many wet lab experiments. So we can use this command to figure out if it's likely to be interacting with the coordinating loop in this simulation.
 
-Again, I prescribed settings for the `overlapCutoff` and `hbondAllowance` parameters to look for contacts: https://www.cgl.ucsf.edu/chimera/docs/UsersGuide/midas/findclash.html. I also set `intraMol` to false, since by default the `findclash` behavior would depict interactions between covalently bonded pairs in the structure, but in this case, I want to see what's going on between two disconnected regions. Finally, by setting `reveal` to true residues with atoms participating in a pseudobond will be automatically shown, along with the pseudobond itself, even though initially I am only showing the ribbon structure of NTnI.
+Again, I prescribed settings for the `overlapCutoff` and `hbondAllowance` parameters to look for contacts: <a href="url">https://www.cgl.ucsf.edu/chimera/docs/UsersGuide/midas/findclash.html</a>. I also set `intraMol` to false, since by default the `findclash` behavior would depict interactions between covalently bonded pairs in the structure, but in this case, I want to see what's going on between two disconnected regions. Finally, by setting `reveal` to true residues with atoms participating in a pseudobond will be automatically shown, along with the pseudobond itself, even though initially I am only showing the ribbon structure of NTnI.
 
 The second line `ksdssp` re-evaluates the protein's secondary structure for every frame, which is particularly helpful since there's a disordered region in this simulation.
 
-There is a lot more out there; for instance see the UCSF's Chimera documentation: https://www.rbvi.ucsf.edu/chimerax/docs/user/commands/perframe.html
+There is a lot more out there; for instance see the UCSF's Chimera documentation: <a href="url">https://www.rbvi.ucsf.edu/chimerax/docs/user/commands/perframe.html</a>
+
 
 Finally, a per frame script is great when you're analyzing your results, but it's also important to be able to record a movie for a power point presentation.
 
