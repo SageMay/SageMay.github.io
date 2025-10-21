@@ -6,7 +6,14 @@ categories: blog
 tags: [blog]
 image: flowers/columbine.jpg
 ---
-<!-- Are you new to visualizing molecular dynamics (MD) simulations? Creating compelling visuals changes the game for how your work is perceived, but in my experience there's a steep learning curve. Check out my blog post for a few tips that helped make me make simulations clearer and quicker.
+<!-- Are you new to visualizing molecular dynamics (MD) simulations? Creating compelling visuals changes the game for how your work is perceived, but in my experience there's a steep learning curve. Check out my blog post for a few tips that helped make me use Chimera to make clearer visuals more quickly. https://sagemay.github.io/usingChimera
+
+In the post I cover:
+
+1. Writing a .com file to specify colors of key structural features consistently.
+2. How to use depth cueing
+3. Using the command line and writing per frame scripts
+4. Making your first videos
 -->
 
 TLDR:
@@ -69,7 +76,7 @@ There is a lot more out there. For instance, you might want to perform a calcula
 Finally, a per frame script is great when you're analyzing your results, but it's also important to be able to record a movie.
 
 <h2> 6. Record a movie </h2>
-You've probably seen gorgeous MD movies that take a lot of skill to make, and watching them it can feel insurmountable to get started. If you're just beginning, try going to the MD movie pane and selecting File > Record movie. You can adjust your step size and frame rate accordingly, and also the beginning and end of the simulation. As long as you have set up the viewing window on the portion of the structure you wish to highlight and used Actions > Hold Selection Steady for the key region this can quickly produce a decent movie that communicates the key scientific idea. In this example, you can observe several positively charged Lysines and Arginines on NTnI that seem disposed to interact with the negatively charged calcium coordinating site II. I used the perframe script from 5, which illustrates pseudobonds with yellow. 
+You've probably seen gorgeous MD movies that take a lot of skill to make, and watching them it can feel insurmountable to get started. If you're just beginning, try going to the MD movie pane and selecting File > Record movie. You can adjust your step size and frame rate accordingly, and also the beginning and end of the simulation. As long as you have set up the viewing window on the portion of the structure you wish to highlight and used Actions > Hold Selection Steady for the key region this can quickly produce a decent movie that communicates the key scientific idea. In this example, you can observe several positively charged Lysines and Arginines on NTnI that seem disposed to interact with the negatively charged calcium coordinating site II. I used the perframe script from 5, which illustrates pseudobonds with yellow.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_0Wo_yHRS_s?si=u0v4znlpRxI0sPMc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

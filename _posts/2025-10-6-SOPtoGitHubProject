@@ -1,0 +1,30 @@
+---
+layout: post
+title: "Using GitHub Projects for SOPs and Project Management"
+author: "Sage Malingen"
+categories: blog
+tags: [blog]
+image: flowers/sagebrushViolets.jpg
+---
+<!-- Teaching someone to run a molecular dynamics simulation
+-->
+
+When I learned to run a molecular dynamics simulation for the first time, my mentor sat down and walked me through the process end-to-end. At the time, I had only a rudimentary knowledge of using the command line and very little background knowledge in what computational chemistry was all about. That meant that I had to integrate a huge amount of context with a detailed sequence of commands.
+
+Amber has a good set of tutorials for learners to use, but if you're a new postdoc or graduate student, you might be pushing towards doing novel research faster than you can reasonably go through the tutorials.
+
+I was fortunate that my mentor had built his own helper scripts and templates to make starting new projects faster. But because of this customization, I couldn't look up documentation for his process.
+
+Fortunately, I took extremely detailed notes as he walked me through the process and those notes became the basis for a more curated set of notes that I kept handy as I learned.
+
+There were some big draw backs to this process. First, it took a huge amount of time, patience  and generosity from my mentor -- those kinds of mentors are few and far between (thank you Matt!). Second, the person writing the notes (me) didn't have enough understanding to contextualize different parts of the process. This lead to me making errors in my early simulations that were easily avoidable. And, unfortunately, some of the errors didn't result in aborted simulations -- instead, the simulations ran for a whole week before I realized there was a problem.
+
+All of this to say, I am a firm believer in writing documentation to facilitate training and performance of semi-routine tasks.
+
+The solution I pursued was using GitHub projects to create a "How to" guide for the Center for Translational Muscle Research's MD workflow and computational resources. Inherently, this workflow is customized to that group, but was becoming essential as the core added new MD users.
+
+In addition to serving as a guide, the project template can be copied for new projects and used for project management to help users ensure every step is properly completed. I also incorporated notes on critical information to document as a new simulation is set up such that the methods section for the accompanying publication can be written alongside the simulation run scripts.
+
+In setting up this template I took a lot of inspiration from "Diataxis". I identified why I had struggled: Amber has a phenomenal manual for reference and excellent set of tutorials that also provide explanation. But they did not have the curated "How to" guide that I needed to ensure I properly executed my process. So that's what I aimed to make. My guide has pretty minimal explanation, but I aimed to provide explicit instructions so that even a novice on the command line could accomplish each step. And also so that experienced users could use the project management feature as a sort of check list and quick look-up for what they did and a unified location for note-taking.  https://diataxis.fr/how-to-guides/
+
+Will this project work for your specific workflow? Probably not. But I hope this will inspire researchers to create guides to their work flows to make them more reproducible and trainable.
