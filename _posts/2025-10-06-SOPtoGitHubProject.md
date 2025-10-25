@@ -4,7 +4,7 @@ title: "Using GitHub Projects for SOPs and Project Management"
 author: "Sage Malingen"
 categories: blog
 tags: [blog]
-image: flowers/sagebrushViolets.jpg
+image: flowers/sagebrushViolets.png
 ---
 <!-- Teaching someone to run a molecular dynamics simulation
 -->
