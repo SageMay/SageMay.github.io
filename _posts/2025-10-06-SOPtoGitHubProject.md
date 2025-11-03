@@ -6,7 +6,11 @@ categories: blog
 tags: [blog]
 image: flowers/sagebrushViolets.png
 ---
-<!-- Teaching someone to run a molecular dynamics simulation
+<!-- Siloed information and out-of-date SOPs stall productivity. As a computational biologist, I value how SOPs streamline wet-lab work and make processes more reproducible, but I also prize adaptability and version control.
+
+Using a GitHub project template, I created an SOP for running a molecular dynamics simulation given my group's computational infrastructure. The project template can be copied into the repository for a new research project at the outset and serves as a unified location to document key decisions and verify that critical steps are accomplished correctly. I also used this project for training, finding that it simplified onboarding for new learners.
+
+For more context on how I thought about creating an effective project template, see my blog post: https://sagemay.github.io/SOPtoGitHubProject or the GitHub project template: https://github.com/SageMay?tab=projects.  
 -->
 The first time I learned to run a molecular dynamics simulation, my mentor sat down and walked me through the process end-to-end. At the time, I had only a rudimentary knowledge of using the command line and computational chemistry. That meant that I had to integrate a huge amount of context with a detailed sequence of commands. My mentor had also built custom helper scripts and templates that made starting a new project faster if you knew how to use them and where to look.
 

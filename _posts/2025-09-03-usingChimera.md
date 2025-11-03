@@ -6,14 +6,16 @@ categories: blog
 tags: [blog]
 image: flowers/columbine.jpg
 ---
-<!-- Are you new to visualizing molecular dynamics (MD) simulations? Creating compelling visuals changes the game for how your work is perceived, but in my experience there's a steep learning curve. Check out my blog post for a few tips that helped make me use Chimera to make clearer visuals more quickly. https://sagemay.github.io/usingChimera
+<!-- Are you new to visualizing molecular dynamics (MD) simulations? Creating compelling visuals changes the game for how your work is perceived, but in my experience there's a steep learning curve. Check out my blog post for a few tips that will help make clear Chimera visuals more quickly: https://sagemay.github.io/usingChimera
 
 In the post I cover:
 
-1. Writing a .com file to specify colors of key structural features consistently.
+1. Writing a .com file to specify colors of key structural features consistently
 2. How to use depth cueing
 3. Using the command line and writing per frame scripts
 4. Making your first videos
+
+Like the 80/20 rule, these tips are easy to learn and give outsized impact in communicating a scientific result.
 -->
 
 TLDR:
